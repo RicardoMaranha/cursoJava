@@ -1,7 +1,5 @@
 package curso.git.java;
 
-import java.util.Date;
-
 public class Pessoa {
 	
 	private String nome;
@@ -9,18 +7,6 @@ public class Pessoa {
 	private String sobrenome;
 	
 	private int idade;
-	
-	private Date datanascimento;
-	
-	
-	public Date getDatanascimento() {
-		return datanascimento;
-	}
-	
-	public void setDatanascimento(Date datanascimento) {
-		this.datanascimento = datanascimento;
-		
-	}
 	
 	public String getNome() {
 		return nome;
